@@ -16,9 +16,11 @@ Often, in prototyping, you want to rapidly set-up wireless Wizard of Oz testing.
     - With breakout board: ground - Vcc - signal
     - Signals connects to a digital pin
    
+  ![pinouts](https://github.com/Arduino-IRremote/Arduino-IRremote/blob/master/pictures/IRReceiverPinout.jpg)
+   
 
 ## Receiving on Arduino
-In this example I'm using a [ROM-WT138L(N) IR sensor](https://www.kiwi-electronics.com/en/ir-sensor-rom-wt138ln-11180)
+In this example, I'm using a [ROM-WT138L(N) IR sensor](https://www.kiwi-electronics.com/en/ir-sensor-rom-wt138ln-11180) and an Arduino Nano.
 - Connect power (5V), signal (digital pin) and ground
 - For the decoding you need to install the [IR remote library](https://www.arduino.cc/reference/en/libraries/irremote/)   
 
